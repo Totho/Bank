@@ -1,6 +1,6 @@
 Bank
 ====
-La  introduccion de los datos debe tener la siguiente estructura
+El ingreso de los datos debe tener la siguiente estructura
 
 Si se desea agregar un usuario
 ./client add (nombre del usuario)
