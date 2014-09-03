@@ -1,5 +1,6 @@
 #This is a variable
-CC=g++
+#CC=g++
+CC=g++ -std=c++0x
 ZMQ=/home/utp/cs/HaloCS/zmq
 ZMQ_HDRS=$(ZMQ)/include
 ZMQ_LIBS=$(ZMQ)/lib
