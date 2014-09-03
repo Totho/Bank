@@ -7,13 +7,13 @@ ZMQ_LIBS=$(ZMQ)/lib
 #regla principal
 all: client server
 
-cliente: client.c
-$(CC) -std=c++11 -I/home/utp/cs/HaloCS/zmq/include -c client.c
+cliente: client.cc
+$(CC) -std=c++11 -I/home/utp/cs/HaloCS/zmq/include -c client.cc
 $(CC) -std=c++11 -L/home/utp/cs/HaloCS/zmq/lib -o client client.o -lzmq -lczmq
 
 
-server: server.c
-$(CC) -std=c++11 -I/home/utp/cs/HaloCS/zmq/include -c server.c
+server: server.cc
+$(CC) -std=c++11 -I/home/utp/cs/HaloCS/zmq/include -c server.cc
 $(CC) -std=c++11 -L/home/utp/cs/HaloCS/zmq/lib -o server server.o -lzmq -lczmq
 
 clean:
